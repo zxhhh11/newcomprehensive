@@ -1,0 +1,5 @@
+export const CHANGE_LANGUAGE = 'CHANGE_LANGUAGE';
+export const CHANGE_LANGUAGE1 = 'CHANGE_LANGUAGE_NEW';
+
+export const UNAUTHORIZED = 'UNAUTHORIZED';
+export const CLEAR_ALL = 'CLEAR_ALL';

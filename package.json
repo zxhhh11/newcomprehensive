@@ -1,0 +1,77 @@
+{
+  "name": "newcomprehensive",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "antd": "^3.24.2",
+    "babel-plugin-import": "^1.12.2",
+    "bizcharts": "^3.5.6",
+    "core-js": "^3.3.5",
+    "customize-cra": "^0.8.0",
+    "dynamic-antd-theme": "^0.3.4",
+    "history": "^4.10.1",
+    "http-proxy-middleware": "^0.20.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
+    "moment": "^2.24.0",
+    "mutation-observer": "^1.0.3",
+    "pdfjs-dist": "^2.2.228",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-app-polyfill": "^1.0.4",
+    "react-app-rewired": "^2.1.4",
+    "react-dom": "^16.11.0",
+    "react-intl-universal": "^2.2.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "setprototypeof": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie > 9"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2",
+    "redux-logger": "^3.0.6"
+  }
+}
